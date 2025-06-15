@@ -37,7 +37,7 @@ if not st.session_state.logged_in:
 
     with placeholder.form("login"):
         # Configuración del cover logo
-        st.image("arcacontinental_cover.jpeg", use_container_width=True, width=200)
+        st.image("images/arcacontinental_cover.jpeg", use_container_width=True, width=200)
         st.markdown("<h1 style='text-align: center;'>¡Bienvenido!</h1>", unsafe_allow_html=True)
         st.markdown("### Iniciar sesión")
         username = st.text_input("Usuario", placeholder="Ingresa tu usuario")
@@ -60,7 +60,7 @@ if (st.session_state.logged_in == True):
     # Logo y título
     # ======================
 
-    st.image('arcacontinental_cover.jpeg', width=1500) 
+    st.image('images/arcacontinental_cover.jpeg', width=1500) 
     st.markdown(
         """
         <div style='background: linear-gradient(90deg, #bb0a01 0%, #ffc914 100%); padding: 1.5rem 0; border-radius: 18px; margin-bottom: 1.5rem;'>
